@@ -18,7 +18,9 @@
 </script>
 
   {{- next_inject('head') }}
-  <title>{{ page.title }} | {{ title }}</title>
+  <title>
+    {{- page.title + page_title_suffix }}
+</title>
   {{ partial('_third-party/analytics/index.swig', {}, {cache: theme.cache.enable}) }}
   {{ partial('_scripts/noscript.swig', {}, {cache: theme.cache.enable}) }}
 <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -45,11 +47,45 @@
       <div class="main-inner">
         <div class="content-wrap">
           
+  
+  
 
-          <div class="content post posts-expand">
+          <div class="content page posts-expand">
             
 
-  {{ partial('_macro/post.swig', {post: page}) }}
+    
+    
+    
+    <div class="post-block" lang="{{ page.lang or config.language }}">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">
+  {{- page.title }}
+  {{- post_edit(page.source) }}
+</h1>
+
+<div class="post-meta">
+  
+
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          {{ page.content }}
+      </div>
+      
+      
+      
+    </div>
+    
+
+    
+    
+    
 
 
           </div>
