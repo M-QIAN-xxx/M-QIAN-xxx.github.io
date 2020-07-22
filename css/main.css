@@ -7,6 +7,16 @@
   color: #fff;
   background: #49b1f5;
 }
+.site-nav-toggle {
+  padding: 20px 0;
+  color: #fff;
+  background: #49b1f5;
+}
+.site-nav-right {
+  padding: 20px 0;
+  color: #fff;
+  background: #49b1f5;
+}
 .site-subtitle {
   margin-top: 10px;
   font-size: 13px;
@@ -1185,7 +1195,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffffdb;
+  background: #3ef6c9;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
