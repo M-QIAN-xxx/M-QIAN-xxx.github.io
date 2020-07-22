@@ -3,17 +3,17 @@
   background: #49b1f5;
 }
 .site-meta {
-  padding: 20px 0;
+  padding: 0 0;
   color: #fff;
   background: #49b1f5;
 }
 .site-nav-toggle {
-  padding: 20px 0;
+  padding: 0 0;
   color: #fff;
   background: #49b1f5;
 }
 .site-nav-right {
-  padding: 20px 0;
+  padding: 0 0;
   color: #fff;
   background: #49b1f5;
 }
@@ -1195,7 +1195,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #3ef6c9;
+  background: #1df5ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
