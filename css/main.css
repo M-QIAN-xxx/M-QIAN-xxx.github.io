@@ -1171,7 +1171,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #c3c369;
+  background: #d101c2;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2650,7 +2650,7 @@ ul.breadcrumb li + li:last-child {
 }
 @media screen and (min-width: 1200px) {
   body {
-    background-image: url("/images/background.png");
+    background-image: url("/images/bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%;
