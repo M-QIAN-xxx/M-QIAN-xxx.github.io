@@ -1,3 +1,15 @@
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url("https://source.unsplash.com/random/1600x900");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+  }
+  #footer a {
+    coler: #eee;
+  }
+}
 :root {
   --body-bg-color: #eee;
   --content-bg-color: #fff;
@@ -1171,7 +1183,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #33ff60;
+  background: #ab01d4;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2643,5 +2655,17 @@ ul.breadcrumb li + li:last-child {
   }
   .pagination {
     margin: 8px 0 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url("https://source.unsplash.com/random/1600x900");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+  }
+  #footer a {
+    coler: #eee;
   }
 }
