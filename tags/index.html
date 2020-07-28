@@ -478,6 +478,16 @@ window.addEventListener('pjax:success', () => {
   
 
   
+  <script src="[object Object]"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri === 'http://yoursite.com/tags/',]
+      });
+      });
+  </script>
 
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
 
