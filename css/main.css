@@ -16,7 +16,7 @@
   --btn-default-border-color: #555;
   --btn-default-hover-bg: #111;
   --btn-default-hover-color: #fff;
-  --btn-default-hover-border-color: #111;
+  --btn-default-hover-border-color: #87daff;
 }
 html {
   line-height: 1.15; /* 1 */
@@ -1172,7 +1172,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #8b7303;
+  background: #403cc1;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
